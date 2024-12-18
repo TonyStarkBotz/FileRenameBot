@@ -18,9 +18,9 @@ async def start(client, message):
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Tonystark_botz'),
+            '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/TonyStark_Botz'),
         InlineKeyboardButton(
-            '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/MovieTimesXDisc')
+            '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/TonyStarkBotzXSupport')
     ], [
         InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
@@ -67,7 +67,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton(
                     '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Tonystark_botz'),
                 InlineKeyboardButton(
-                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/MovieTimesXDisc')
+                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/TonyStarkBotzXSupport')
             ], [
                 InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
