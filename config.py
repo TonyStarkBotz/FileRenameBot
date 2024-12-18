@@ -9,11 +9,11 @@ class Config(object):
     # pyro client config
     API_ID = os.environ.get("API_ID", "27064328")  # ⚠️ Required
     API_HASH = os.environ.get("API_HASH", "7be1392c2fe5ebf4fc3228706fbfb504")  # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")  # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6661031019:AAEiNWxPdvGO5hNrReeBKyJ6o-IvDD0HjqM")  # ⚠️ Required
 
     # premium 4g renaming client
-    STRING_API_ID = os.environ.get("STRING_API_ID", "")
-    STRING_API_HASH = os.environ.get("STRING_API_HASH", "")
+    STRING_API_ID = os.environ.get("STRING_API_ID", "20662362")
+    STRING_API_HASH = os.environ.get("STRING_API_HASH", "29f99055e3f69dc7ea394dbf5e0c7dc5")
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
 
     # database config
@@ -24,9 +24,9 @@ class Config(object):
     BOT_UPTIME = time.time()
     START_PIC = os.environ.get("START_PIC", "https://graph.org/file/7e2dd98a24c217e85f1b1.jpg")
     ADMIN = [int(admin) if id_pattern.search(
-        admin) else admin for admin in os.environ.get('ADMIN', '5019668523 6302921275').split()]  # ⚠️ Required
+        admin) else admin for admin in os.environ.get('ADMIN', '5019668523').split()]  # ⚠️ Required
     
-    FORCE_SUB = os.environ.get("FORCE_SUB", "Avengers_Alliance") # ⚠️ Required Username without @
+    FORCE_SUB = os.environ.get("FORCE_SUB", "TonyStark_Botz") # ⚠️ Required Username without @
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002173316760"))  # ⚠️ Required
     FLOOD = int(os.environ.get("FLOOD", '10'))
     BANNED_USERS = set(int(x) for x in os.environ.get(
@@ -43,8 +43,7 @@ class Txt(object):
 Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ
 Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ & Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oꜰ Yᴏᴜʀ Fɪʟᴇ
 Yᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ & Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ
-Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
-"""
+Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
@@ -77,7 +76,7 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 <b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
 
 
-<b>⦿ Developer:</b> <a href=https://t.me/Tony_Stark_75>Tᴏɴʏ Sᴛᴀʀᴋ ❄️</a>
+<b>⦿ Developer:</b> <a href=https://t.me/Tony_Stark_75>Ƭᴏɴʏ Ꮪᴛᴀʀᴋ ⎊</a>
 """
 
     SEND_METADATA = """
