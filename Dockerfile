@@ -1,18 +1,18 @@
-Use Python 3.10 base image
+# Use Python 3.10 base image
 FROM python:3.10
 
-Set the working directory inside the container
+# Set the working directory inside the container
 WORKDIR /app
 
-Copy the current directory contents into the container
+# Copy the current directory contents into the container
 COPY . /app/
 
-Update apt and install ffmpeg along with Python dependencies
+# Update apt and install ffmpeg along with Python dependencies
 RUN apt update && apt install -y ffmpeg && \
     rm -rf /var/lib/apt/lists/*  # Clean up cache to reduce image size
 
-Install Python dependencies from the requirements.txt file
+# Install Python dependencies from the requirements.txt file
 RUN pip install --no-cache-dir -r requirements.txt
 
-Command to run the bot
-CMD ["python", "bot.py"] 
+# Command to run the bot
+CMD ["python", "bot.py"]
