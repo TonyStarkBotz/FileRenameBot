@@ -69,6 +69,6 @@ status - Check Bot Status (Admin Only)
 broadcast - Send Message To All Users (Admin Only)
 ```
 
-## Created By ❄️
+## Fixed By 🌌
 
-- `Snowball`
+- `DigitalGalaxyHQ`
