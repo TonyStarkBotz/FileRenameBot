@@ -2,10 +2,10 @@
 
 # 𝗦𝗜𝗚𝗠𝗔 𝗥𝗘𝗡𝗔𝗠𝗘 𝗕𝗢𝗧
 
-### Sᴀᴍᴩʟᴇ Bᴏᴛ (Official Sɪɢᴍᴀ Rᴇɴᴀᴍᴇ Bᴏᴛ)
+### Sᴀᴍᴩʟᴇ Bᴏᴛ (Official 𝖰𝗎𝗂𝖼𝗄 𝖱𝖾𝗇𝖺𝗆𝖾 𝖡𝗈𝗍)
 
 <p align="center">
-🤖 <a href="https://t.me/SigmaRenameBot"><img title="Telegram" src="https://img.shields.io/static/v1?label=SigmaRename&message=BOT&color=blue-green"></a> 🤖
+🤖 <a href="https://t.me/Quick_RenameBot"><img title="Telegram" src="https://img.shields.io/static/v1?label=𝖰𝗎𝗂𝖼𝗄𝖱𝖾𝗇𝖺𝗆𝖾&message=BOT&color=blue-green"></a> 🤖
 </p>
 
 ## Deploy To Render
